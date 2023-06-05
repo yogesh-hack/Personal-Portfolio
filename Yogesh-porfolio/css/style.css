@@ -2482,7 +2482,10 @@ h6 {
     margin-bottom: 0px; }
 
 .tools_expert {
-  padding: 20px 0px 0px 0px; }
+  padding: 20px 0px 0px 0px; 
+  text-align: center;
+  padding-bottom: 20px;
+}
   .tools_expert .skill_main .skill_item {
     margin-bottom: 18px; }
     .tools_expert .skill_main .skill_item:last-child {
