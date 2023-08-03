@@ -7,6 +7,34 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="icon" href="img/favicon.png" type="image/png">
 	<title>Personal Portfolio - Yogesh Baghel</title>
+	<!-- Meta Description -->
+    	<meta name="description" content="Welcome to my portfolio! I am a passionate web developer showcasing my projects and skills. Check out my work and get in touch!">
+
+	 <!-- Open Graph Meta Tags (for social media sharing) -->
+	    <meta property="og:title" content="Yogesh's Portfolio - Welcome to My Portfolio">
+	    <meta property="og:description" content="Welcome to my portfolio! I am a passionate web developer showcasing my projects and skills. Check out my work and get in touch!">
+	    <meta property="og:type" content="website">
+	    <meta property="og:url" content="https://yogesh-cse.vercel.app/">
+	    <meta property="og:image" content="https://yogesh-cse.vercel.app/img/a2.png">
+
+	<!-- Image Alt Text -->
+	    <img src="https://user-images.githubusercontent.com/83384315/242823895-a323af8e-bbef-4e9c-b0e3-9043202a35f1.png" alt="Portfolio Screenshot - Responsive Web Design">
+	
+	    <!-- Schema Markup -->
+	    <script type="application/ld+json">
+	    {
+	      "@context": "http://schema.org",
+	      "@type": "Person",
+	      "name": "Yogesh Baghel",
+	      "jobTitle": "Web Developer",
+	      "url": "https://yogesh-cse.vercel.app/",
+	      "sameAs": [
+	        "https://www.linkedin.com/in/yogesh-baghel-cse/",
+	        "https://www.github.com/yogesh-hack"
+	      ]
+	    }
+	    </script>
+	
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="vendors/linericon/style.css">
@@ -106,11 +134,17 @@
 											alt="Likedin - YogeshCSE"
 											data-canonical-src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white"
 											style="max-width: 100%; margin-bottom: 10px;"></a>
-									<br><br>
+									<!-- <br><br>
 									&emsp;&emsp;&emsp;
-									<br>
+									<br> -->
 								</p>
 							</div>
+
+							<button class="download-btn" data-timer = "10">
+								<span><img src="https://www.svgrepo.com/show/140007/download-button.svg" width="20px" height="20px"></span>
+								<span class="text">Download Resume</span>
+							</button>
+
 						</div>
 					</div>
 				</div>
@@ -635,6 +669,7 @@
 	<script src="vendors/counter-up/jquery.counterup.min.js"></script>
 	<script src="js/mail-script.js"></script>
 	<script src="js/theme.js"></script>
+	<script src="js/download_btn.js"></script>
 </body>
 
 </html>
