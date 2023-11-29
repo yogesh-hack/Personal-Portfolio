@@ -48,7 +48,27 @@
 </head>
 
 <body>
+<!-- 	Toast Container -->
+	<div id="toast-container"><a href="https://www.yogeshcse.vercel.app">Click here to redirect.</a></div>
 
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      // Display initial toast
+      displayToast("New portfolio link is here...");
+
+      // Function to display toast
+      function displayToast(message) {
+        const toastContainer = document.getElementById('toast-container');
+        toastContainer.textContent = message;
+        toastContainer.classList.add('show');
+
+        // Hide the toast after 4 seconds (adjust as needed)
+        setTimeout(function () {
+          toastContainer.classList.remove('show');
+        }, 4000);
+      }
+    });
+  </script>
 	<!--================Header Menu Area =================-->
 	<header class="header_area">
 		<div class="main_menu">
